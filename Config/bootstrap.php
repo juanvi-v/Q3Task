@@ -1,0 +1,9 @@
+<?php
+
+
+define('TASK_STATUS_ACTIVE',1);
+define('TASK_STATUS_INACTIVE',2);
+
+define('TASK_RESULT_NORMAL',0);
+define('TASK_RESULT_ERROR',1);
+define('TASK_RESULT_WARNING',2);

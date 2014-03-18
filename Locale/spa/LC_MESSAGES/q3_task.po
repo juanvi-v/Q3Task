@@ -1,0 +1,371 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Q3Config\n"
+"POT-Creation-Date: 2014-03-18 14:35+0100\n"
+"PO-Revision-Date: 2014-03-18 14:37+0100\n"
+"Last-Translator: Juan Vicente Vercher <juanvi@artvisual.net>\n"
+"Language-Team: Juanvi <juanvi@artvisual.net>\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n== 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;__d:2;__dn:2,3\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../Controller/TasksController.php:55
+#: ../../../Controller/TasksController.php:88
+msgid "Invalid task"
+msgstr ""
+
+#: ../../../Controller/TasksController.php:70
+#: ../../../Controller/TasksController.php:92
+msgid "The task has been saved"
+msgstr "La tarea ha sido guardada"
+
+#: ../../../Controller/TasksController.php:73
+#: ../../../Controller/TasksController.php:95
+msgid "The task could not be saved. Please, try again."
+msgstr ""
+
+#: ../../../Controller/TasksController.php:135
+#: ../../../Controller/TasksController.php:185
+msgid "Fallo al realizar la operación"
+msgstr ""
+
+#: ../../../Controller/TasksController.php:137
+msgid "Tasks eliminados"
+msgstr ""
+
+#: ../../../Controller/TasksController.php:142
+#: ../../../Controller/TasksController.php:191
+msgid "Tasks no encontrados"
+msgstr ""
+
+#: ../../../Controller/TasksController.php:187
+msgid "Tareas activadas"
+msgstr ""
+
+#: ../../../Controller/TasksController.php:187
+msgid "Tareas desactivadas"
+msgstr ""
+
+#: ../../../View/Tasks/admin_edit.ctp:4
+msgid "Editar tarea"
+msgstr ""
+
+#: ../../../View/Tasks/admin_edit.ctp:7
+msgid "Próxima ejecucion"
+msgstr ""
+
+#: ../../../View/Tasks/admin_edit.ctp:8
+msgid "Intervalo (minutos)"
+msgstr ""
+
+#: ../../../View/Tasks/admin_edit.ctp:9 ../../../View/Tasks/admin_index.ctp:77
+msgid "Acción"
+msgstr ""
+
+#: ../../../View/Tasks/admin_edit.ctp:10
+#: ../../../View/Tasks/admin_index.ctp:78
+msgid "Observaciones"
+msgstr ""
+
+#: ../../../View/Tasks/admin_edit.ctp:11
+#: ../../../View/Tasks/admin_index.ctp:81
+msgid "Activa"
+msgstr ""
+
+#: ../../../View/Tasks/admin_edit.ctp:11
+msgid "Inactiva"
+msgstr ""
+
+#: ../../../View/Tasks/admin_edit.ctp:14 ../../../View/Tasks/admin_add.ctp:16
+msgid "Cancelar"
+msgstr ""
+
+#: ../../../View/Tasks/admin_edit.ctp:14 ../../../View/Tasks/admin_add.ctp:16
+msgid "¿Descartar los cambios realizados?"
+msgstr ""
+
+#: ../../../View/Tasks/admin_edit.ctp:14 ../../../View/Tasks/admin_add.ctp:16
+msgid "Guardar"
+msgstr ""
+
+#: ../../../View/Tasks/admin_add.ctp:4
+msgid "Admin Add Task"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:5
+msgid "Tareas"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:36
+msgid "Nueva"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:44
+#: ../../../View/Tasks/admin_index.ctp:137
+msgid "Eliminar"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:54
+#: ../../../View/Tasks/admin_index.ctp:125
+msgid "Activar"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:63
+#: ../../../View/Tasks/admin_index.ctp:118
+msgid "Desactivar"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:74
+msgid "Última ejecución"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:75
+msgid "Próxima ejecución"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:76
+msgid "Intervalo"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:80
+msgid "Resultado"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:83
+#: ../../../View/Tasks/admin_view.ctp:62
+msgid "Acciones"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:90
+msgid "Nunca"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:93
+#: ../../../View/Tasks/admin_index.ctp:96
+msgid "abreviada_hora"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:103
+msgid "advertencia"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:106
+msgid "error"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:111
+msgid "sin error"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:135
+msgid "Ver"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:136
+msgid "Editar"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:137
+#: ../../../View/Tasks/admin_view.ctp:65
+#, php-format
+msgid "¿Confirma que desea eliminar %s?"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:145
+msgid ""
+"Página {:page} de {:pages}, viendo {:current} registros de {:count} totales, "
+"empezando en {:start}, finalizando en {:end}"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:150
+msgid "anterior"
+msgstr ""
+
+#: ../../../View/Tasks/admin_index.ctp:152
+msgid "siguiente"
+msgstr ""
+
+#: ../../../View/Tasks/admin_view.ctp:2
+msgid "Task"
+msgstr "Tarea"
+
+#: ../../../View/Tasks/admin_view.ctp:4
+msgid "Id"
+msgstr ""
+
+#: ../../../View/Tasks/admin_view.ctp:9
+msgid "Last"
+msgstr "Última ejecución"
+
+#: ../../../View/Tasks/admin_view.ctp:14
+msgid "Next"
+msgstr "Próxima ejecución"
+
+#: ../../../View/Tasks/admin_view.ctp:19
+msgid "Interval"
+msgstr "Intervalo"
+
+#: ../../../View/Tasks/admin_view.ctp:24
+msgid "Action"
+msgstr "Accion"
+
+#: ../../../View/Tasks/admin_view.ctp:29
+msgid "Comments"
+msgstr "Comentarios"
+
+#: ../../../View/Tasks/admin_view.ctp:34
+msgid "Error"
+msgstr "Error"
+
+#: ../../../View/Tasks/admin_view.ctp:39
+msgid "Result"
+msgstr "Resultado"
+
+#: ../../../View/Tasks/admin_view.ctp:44
+msgid "Active"
+msgstr "Activa"
+
+#: ../../../View/Tasks/admin_view.ctp:49
+msgid "Created"
+msgstr "Creada"
+
+#: ../../../View/Tasks/admin_view.ctp:54
+msgid "Modified"
+msgstr "Modificar"
+
+#: ../../../View/Tasks/admin_view.ctp:64
+msgid "Editar Task"
+msgstr "Editar tarea"
+
+#: ../../../View/Tasks/admin_view.ctp:65
+msgid "Eliminar Task"
+msgstr "Eliminar tarea"
+
+#: ../../../View/Tasks/admin_view.ctp:66
+msgid "Listar Tasks"
+msgstr "Listar tareas"
+
+#: ../../../View/Tasks/admin_view.ctp:67
+msgid "Nuevo Task"
+msgstr "Nueva tarea"
+
+#, fuzzy
+#~ msgid "Controller action"
+#~ msgstr "Configuration"
+
+#, fuzzy
+#~ msgid "The comment has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The user has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The review has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The payment method has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The country has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The answer has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The location has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The message has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The pay method has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The report has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "Confirmado"
+#~ msgstr "Configuration"
+
+#, fuzzy
+#~ msgid "The payment has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The province has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The advert has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The admin has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#~ msgid "Items saved"
+#~ msgstr "Items saved"
+
+#~ msgid "ERROR: no item has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#~ msgid "Panic mode enabled"
+#~ msgstr "Panic mode enabled"
+
+#~ msgid "Panic mode disabled"
+#~ msgstr "Panic mode disabled"
+
+#, fuzzy
+#~ msgid "The asset has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The transport user profile has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#, fuzzy
+#~ msgid "The alert has been saved"
+#~ msgstr "ERROR: no item has been saved"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#, fuzzy
+#~ msgid "Configuración"
+#~ msgstr "Configuration"
+
+#, fuzzy
+#~ msgid "Confirmar"
+#~ msgstr "Configuration"
+
+#~ msgid "Configuration"
+#~ msgstr "Configuration"
+
+#~ msgid "No elements"
+#~ msgstr "No elements"
+
+#~ msgid "Yes"
+#~ msgstr "Yes"
+
+#~ msgid "Save"
+#~ msgstr "Save"

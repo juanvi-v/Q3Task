@@ -1,0 +1,20 @@
+CREATE TABLE `tasks` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `last` datetime NOT NULL,
+  `next` datetime NOT NULL,
+  `interval` mediumint(8) unsigned NOT NULL,
+  `action` varchar(255) CHARACTER SET ascii NOT NULL,
+  `comments` varchar(255) COLLATE utf8_general_ci NOT NULL,
+  `error` text COLLATE utf8_general_ci NOT NULL,
+  `result` tinyint(3) unsigned NOT NULL,
+  `active` tinyint(3) unsigned NOT NULL,
+  `created` datetime NOT NULL,
+  `modified` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `next` (`next`),
+  KEY `last` (`last`),
+  KEY `result` (`result`),
+  KEY `active` (`active`),
+  KEY `comments` (`comments`),
+  KEY `action` (`action`)
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci COMMENT='list of jobs for the automatic task system';
