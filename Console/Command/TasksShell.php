@@ -2,6 +2,7 @@
 class TasksShell extends AppShell {
 	public $uses=array('Task');
 	public function cron(){
+		$this->out(__d('q3_task','Begin cron').' '.date('Y-m-d H:i:s'),1,Shell::QUIET);
 		$tasks=$this->Task->find('list',array(
 			'conditions'=>array(
 				'Task.active'=>TASK_STATUS_ACTIVE,
@@ -9,10 +10,16 @@ class TasksShell extends AppShell {
 			),
 			'fields'=>array('Task.id')
 		));
-		foreach($tasks as $id_task){
-			$this->execute($id_task);
-			//$this->out($id_tarea);
+		if(empty($tasks)){
+			$this->out(__d('q3_task','No tasks on schedule'),1,Shell::QUIET);
 		}
+		else{
+			foreach($tasks as $id_task){
+				$this->execute($id_task);
+				//$this->out($id_tarea);
+			}
+		}
+		$this->out(__d('q3_task','End cron').' '.date('Y-m-d H:i:s'),1,Shell::QUIET);
 	}
 
 
@@ -26,15 +33,13 @@ class TasksShell extends AppShell {
 		if(!empty($task)){
 
 			if(!empty($task['Task']['action'])){
-				$this->out($task['Task']['action']);
 				//$task['Task']['error']=$this->requestAction($task['Task']['accion']);
 
 				/*
 				 * All the task options will be modified from the function
 				 */
 				$task_result['Task']=$this->requestAction($task['Task']['action'],array('task'=>$task));
-				$this->out($task['Task']['action']);
-				debug($task_result);
+				$this->out(date('Y-m-d H:i:s').' '.$task['Task']['action'],1,Shell::QUIET);
 
 				if(isset($task_result['Task']['result'])){
 					$task['Task']['result']=intval($task_result['Task']['result']);
@@ -62,7 +67,7 @@ class TasksShell extends AppShell {
 	}
 
 	public function patata(){
-		$this->out('patata');
+		$this->out('patata',1,Shell::QUIET);
 		$this->out('Peñasco');
 	}
 }
