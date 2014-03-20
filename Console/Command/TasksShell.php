@@ -48,6 +48,11 @@ class TasksShell extends AppShell {
 					$task['Task']['result']=intval(!empty($task_result['Task']['error']));
 				}
 
+				if(isset($task_result['Task']['error'])){
+					$task['Task']['error']=$task_result['Task']['error'];
+					$this->out(date('Y-m-d H:i:s').' '.$task['Task']['error'],1,Shell::QUIET);
+				}
+
 				if(isset($task_result['Task']['last'])){
 					$task['Task']['last']=$task_result['Task']['last'];
 				}
