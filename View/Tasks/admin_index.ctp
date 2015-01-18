@@ -1,5 +1,5 @@
 <?php
-App::import('Vendor', 'Funciones');
+// App::import('Vendor', 'Funciones');
 ?>
 <div class="tasks index">
 	<h2><?php echo __d('q3_task','Tareas'); ?></h2>
