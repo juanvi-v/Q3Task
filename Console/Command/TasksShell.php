@@ -73,6 +73,7 @@ class TasksShell extends AppShell {
 
 	public function patata(){
 		$this->out('patata',1,Shell::QUIET);
+		var_dump( extension_loaded('pdo_mysql') );
 		$this->out('Peñasco');
 	}
 }
